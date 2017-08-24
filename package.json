@@ -1,0 +1,43 @@
+{
+  "name": "parent-project",
+  "version": "0.1.0",
+
+  "description": "Will combine a couple of JSON/YAML files while substituting variables. Can be used for package.json generation",
+  "keywords": [
+    "json",
+    "parent-project",
+    "yaml"
+  ],
+
+  "license": "Zlib",
+  "author": "ooxi <violetland@mail.ru>",
+
+  "homepage": "https://github.com/ooxi/parent-project",
+  "bugs": "https://github.com/ooxi/parent-project/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ooxi/parent-project.git"
+  },
+
+  "bin": {
+    "parent-project": "./target/cli.js"
+  },
+
+  "dependencies": {
+    "@types/js-yaml": "3.9.*",
+    "js-yaml": "3.9.*",
+
+    "@types/lodash.assign": "4.2.*",
+    "lodash.assign": "4.2.*"
+  },
+
+  "devDependencies": {
+    "@types/node": "8.0.*",
+    "@types/tape": "4.2.*",
+    "tape": "4.8.*",
+    "ts-loader": "2.3.*",
+    "typescript": "2.4.*",
+    "webpack": "3.5.*",
+    "webpack-configuration-templates": "0.1.*"
+  }
+}

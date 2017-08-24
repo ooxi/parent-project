@@ -1,0 +1,5 @@
+# Ignore everything but /target/cli.js
+/.idea/
+/node_modules/
+/target/*
+!/target/cli.js

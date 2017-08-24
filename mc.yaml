@@ -1,0 +1,10 @@
+---
+base: ubuntu:16.04
+install:
+ - make
+ - nodejs
+ - npm
+---
+#!/bin/bash
+
+sudo ln -s /usr/bin/nodejs /usr/bin/node
