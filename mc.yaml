@@ -7,4 +7,10 @@ install:
 ---
 #!/bin/bash
 
+
+# node → nodejs
 sudo ln -s /usr/bin/nodejs /usr/bin/node
+
+
+# Making stable parent-project version available globally
+sudo npm install -g 'parent-project@0.1.0'

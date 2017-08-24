@@ -11,6 +11,7 @@ clean-dependencies:
 
 # Resolves all dependencies
 install-dependencies: clean-dependencies
+	parent-project package.yaml > package.json
 	npm install
 
 
