@@ -1,6 +1,6 @@
 {
   "name": "parent-project",
-  "version": "0.2.0",
+  "version": "0.2.1",
 
   # Well, not yet, but we are getting there ☺
   "description": "Will combine a couple of JSON/YAML files while substituting variables. Can be used for package.json generation",

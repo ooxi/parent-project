@@ -78,6 +78,12 @@ be read by `npm install`. Most likely you want to `.gitignore` but not
 ## Changelog
 
 
+### [0.2.1](https://github.com/ooxi/parent-project/releases/tag/v0.2.1)
+
+ * Updated development environment to latest stable *parent-project* version
+ * Fixed changelog rendering on GitHub
+
+
 ### [0.2.0](https://github.com/ooxi/parent-project/releases/tag/v0.2.0)
 
  * Variable substitution
