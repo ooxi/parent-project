@@ -22,11 +22,33 @@ module.exports = [
     /* Test cases
      */
     extendDefaultTypeScriptConfiguration({
+        entry: "./test/JsonPathTest.ts",
+
+        output: {
+            path: __dirname + "/target",
+            filename: "JsonPathTest.js"
+        },
+
+        target: 'node'
+    }),
+
+    extendDefaultTypeScriptConfiguration({
         entry: "./test/JsYamlTest.ts",
 
         output: {
             path: __dirname + "/target",
             filename: "JsYamlTest.js"
+        },
+
+        target: 'node'
+    }),
+
+    extendDefaultTypeScriptConfiguration({
+        entry: "./test/SubstitutionTest.ts",
+
+        output: {
+            path: __dirname + "/target",
+            filename: "SubstitutionTest.js"
         },
 
         target: 'node'

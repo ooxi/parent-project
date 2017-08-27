@@ -1,6 +1,6 @@
 {
   "name": "parent-project",
-  "version": "0.1.1",
+  "version": "0.2.0",
 
   # Well, not yet, but we are getting there ☺
   "description": "Will combine a couple of JSON/YAML files while substituting variables. Can be used for package.json generation",
@@ -25,11 +25,25 @@
   },
 
   "dependencies": {
+    # Not using `jsonpath' since that package runtime patches esprima as well as not being compatible to webpack
+    # targeting node
+    "jsonpath-plus": "0.16.*",
+
+    # YAML → JSON
     "@types/js-yaml": "3.9.*",
     "js-yaml": "3.9.*",
 
     "@types/lodash.assign": "4.2.*",
-    "lodash.assign": "4.2.*"
+    "lodash.assign": "4.2.*",
+
+    "@types/lodash.foreach": "4.5.*",
+    "lodash.foreach": "4.5.*",
+
+    "@types/lodash.forown": "4.4.*",
+    "lodash.forown": "4.4.*",
+
+    "@types/lodash.isequal": "4.5.*",
+    "lodash.isequal": "4.5.*"
   },
 
   "devDependencies": {

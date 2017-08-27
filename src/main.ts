@@ -27,6 +27,8 @@ import fs = require("fs");
 import assign = require("lodash.assign");
 import jsyaml = require("js-yaml");
 
+import {Substitution} from "./Substitution";
+
 
 
 
@@ -70,6 +72,12 @@ let document: any = documents[0];
 document = assign({
     WARNING: "AUTO GENERATED - DO NOT MODIFY!"
 }, document);
+
+
+/* Substitute references
+ */
+let substitution: Substitution = new Substitution(document);
+document = substitution.substitute();
 
 
 /* Pretty print package.json to stdout

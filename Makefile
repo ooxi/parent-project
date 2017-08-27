@@ -34,7 +34,9 @@ build: clean
 
 # Execute test cases
 test: build
+	nodejs target/JsonPathTest.js
 	nodejs target/JsYamlTest.js
+	nodejs target/SubstitutionTest.js
 
 
 # Do everything from scratch
