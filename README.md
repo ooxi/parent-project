@@ -77,14 +77,19 @@ be read by `npm install`. Most likely you want to `.gitignore` but not
 
 ## Changelog
 
- * [0.2.0](https://github.com/ooxi/parent-project/releases/tag/v0.2.0)
-  * Variable substitution
 
- * [0.1.1](https://github.com/ooxi/parent-project/releases/tag/v0.1.1)
-  * Became self hosted by the latest stable version hosted on npmjs to translate
-    the [package.yaml](package.yaml) project definition
+### [0.2.0](https://github.com/ooxi/parent-project/releases/tag/v0.2.0)
 
- * [0.1.0](https://github.com/ooxi/parent-project/releases/tag/v0.1.0)
-  * Initial development
-  * Published to [npmjs](https://www.npmjs.com/package/parent-project)
+ * Variable substitution
+
+
+### [0.1.1](https://github.com/ooxi/parent-project/releases/tag/v0.1.1)
+
+ * Became self hosted by the latest stable version hosted on npmjs to translate
+   the [package.yaml](package.yaml) project definition
+
+### [0.1.0](https://github.com/ooxi/parent-project/releases/tag/v0.1.0)
+
+ * Initial development
+ * Published to [npmjs](https://www.npmjs.com/package/parent-project)
 
